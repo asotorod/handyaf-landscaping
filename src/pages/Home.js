@@ -10,6 +10,7 @@ function Home() {
       <Hero 
         title="Transform Your Outdoor Space"
         subtitle="Bringing your vision of a perfect landscape, ornamental and edible garden to life with precision and care that adjusts with the changing seasons."
+        backgroundImage="https://images.unsplash.com/photo-1734079692079-aae7e24a7035?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       />
 
       {/* About Section */}
