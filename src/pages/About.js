@@ -41,7 +41,7 @@ function About() {
               </div>
             </div>
             <div className="about-intro-image">
-              <img src="/images/about-team.jpg" alt="Handy AF Home Services" />
+              <img src="/images/about-team.jpeg" alt="Handy AF Home Services" />
             </div>
           </div>
         </div>
