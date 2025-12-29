@@ -10,6 +10,7 @@ function Services() {
       <PageHeader 
         title="Our Services"
         subtitle="Comprehensive landscaping solutions for your property"
+        backgroundImage="https://images.unsplash.com/photo-1458245201577-fc8a130b8829?q=80&w=2352&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       />
 
       <section className="section services-list">
