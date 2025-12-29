@@ -1,6 +1,11 @@
-# HandyAF Landscaping Website
+# Handy AF Home Services Website
 
 Professional landscaping services website built with React, ready for Vercel deployment.
+
+**Business:** Handy AF LLC  
+**Location:** Blooming Grove, NY  
+**Phone:** (845) 494-1727  
+**Email:** imhandyaf@gmail.com
 
 ## Quick Start
 
@@ -60,11 +65,6 @@ To add your promo video:
 2. Get the embed URL
 3. Update `/src/pages/Home.js` - uncomment the iframe and add your video URL
 
-### 6. Contact Information
-Update contact details in:
-- `/src/components/Footer.js`
-- `/src/pages/Contact.js`
-
 ## File Structure
 
 ```
@@ -95,8 +95,17 @@ src/
 - ✅ LightWidget Instagram integration (gallery)
 - ✅ Yardbook quote form integration (contact)
 - ✅ Video section placeholder (home)
+- ✅ 100% Recommended badge (13 reviews)
 - ✅ SEO-friendly structure
 - ✅ Vercel-ready deployment
+
+## Service Areas
+
+- Blooming Grove, NY
+- Cornwall, NY
+- Campbell Hall, NY
+- Orange County, NY
+- & Surrounding Areas
 
 ## Color Scheme
 
@@ -107,4 +116,4 @@ src/
 
 ## License
 
-Private - HandyAF Landscaping
+Private - Handy AF LLC
