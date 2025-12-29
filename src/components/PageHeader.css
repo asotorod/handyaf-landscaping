@@ -1,0 +1,52 @@
+.page-header {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 0;
+}
+
+.page-header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(45, 90, 39, 0.9) 0%,
+    rgba(30, 61, 26, 0.8) 100%
+  );
+}
+
+.page-header-content {
+  position: relative;
+  z-index: 1;
+  padding: 0 20px;
+}
+
+.page-header-content h1 {
+  font-size: 3rem;
+  color: var(--text-white);
+  margin-bottom: 0.5rem;
+}
+
+.page-header-content p {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+@media (max-width: 768px) {
+  .page-header {
+    height: 300px;
+  }
+
+  .page-header-content h1 {
+    font-size: 2.2rem;
+  }
+}
