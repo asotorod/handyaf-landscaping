@@ -12,7 +12,7 @@ export const services = [
       'Drainage solutions',
       'Phased implementation options'
     ],
-    image: '/images/services/landscape-design.jpg',
+    image: 'https://images.pexels.com/photos/268362/pexels-photo-268362.jpeg',
     icon: 'design'
   },
   {
@@ -28,7 +28,7 @@ export const services = [
       'Soil preparation and amendments',
       'Mulching and finishing'
     ],
-    image: '/images/services/landscape-planting.jpg',
+    image: 'https://images.unsplash.com/photo-1622383563227-04401ab4e5ea?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     icon: 'planting'
   },
   {
@@ -44,7 +44,7 @@ export const services = [
       'Smart controls and timers',
       'Low-voltage systems'
     ],
-    image: '/images/services/landscape-lighting.jpg',
+    image: 'https://images.unsplash.com/photo-1658692051708-519fbdac7e8f?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     icon: 'lighting'
   },
   {
@@ -60,7 +60,7 @@ export const services = [
       'Spring and fall cleanups',
       'Pruning and trimming'
     ],
-    image: '/images/services/lawn-care.jpg',
+    image: 'https://images.pexels.com/photos/212324/pexels-photo-212324.jpeg',
     icon: 'lawncare'
   },
   {
@@ -76,7 +76,7 @@ export const services = [
       'Sidewalk maintenance',
       'Seasonal contracts available'
     ],
-    image: '/images/services/snow-removal.jpg',
+    image: 'https://images.unsplash.com/photo-1517430784299-86c141b421df?q=80&w=2342&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     icon: 'snow'
   }
 ];
