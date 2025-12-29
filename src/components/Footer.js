@@ -9,7 +9,7 @@ function Footer() {
         <div className="container">
           <div className="footer-grid">
             <div className="footer-brand">
-              <img src="/images/logo-white.png" alt="Handy AF Home Services" className="footer-logo" />
+              <img src="/images/logo.png" alt="Handy AF Home Services" className="footer-logo" />
               <p>Bringing your vision of a perfect landscape, ornamental and edible garden to life with precision and care that adjusts with the changing seasons.</p>
               <div className="footer-social">
                 <a href="https://www.instagram.com/imhandyaf" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
@@ -78,7 +78,7 @@ function Footer() {
 
       <div className="footer-bottom">
         <div className="container">
-          <p>&copy; {new Date().getFullYear()} Handy AF LLC. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Handy AF LLC. All Rights Reserved. | Powered by SVT Consulting</p>
         </div>
       </div>
     </footer>
