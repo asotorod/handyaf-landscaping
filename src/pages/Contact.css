@@ -1,0 +1,135 @@
+.contact-content {
+  background-color: var(--bg-white);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 60px;
+}
+
+.contact-info h2 {
+  font-size: 2rem;
+  color: var(--primary-green);
+  margin-bottom: 1rem;
+}
+
+.contact-info > p {
+  color: var(--text-light);
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 2rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.contact-icon {
+  width: 50px;
+  height: 50px;
+  background-color: var(--bg-light);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-green);
+  flex-shrink: 0;
+}
+
+.contact-item h4 {
+  font-size: 1rem;
+  color: var(--text-dark);
+  margin-bottom: 0.25rem;
+}
+
+.contact-item a,
+.contact-item span {
+  color: var(--text-light);
+  font-size: 0.95rem;
+  display: block;
+  transition: var(--transition);
+}
+
+.contact-item a:hover {
+  color: var(--primary-green);
+}
+
+.contact-social h4 {
+  font-size: 1rem;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+}
+
+.social-links a {
+  width: 45px;
+  height: 45px;
+  background-color: var(--bg-light);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-green);
+  transition: var(--transition);
+}
+
+.social-links a:hover {
+  background-color: var(--primary-green);
+  color: var(--text-white);
+  transform: translateY(-3px);
+}
+
+/* Contact Form / Yardbook Embed */
+.contact-form-wrapper {
+  background-color: var(--bg-light);
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.contact-form-wrapper h3 {
+  font-size: 1.5rem;
+  color: var(--primary-green);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.yardbook-embed {
+  background-color: var(--bg-white);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.yardbook-embed iframe {
+  display: block;
+  min-height: 700px;
+}
+
+@media (max-width: 992px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .contact-form-wrapper {
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-form-wrapper {
+    padding: 20px 15px;
+  }
+}
