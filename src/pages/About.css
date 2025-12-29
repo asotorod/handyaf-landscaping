@@ -21,6 +21,29 @@
   line-height: 1.8;
 }
 
+.about-badge {
+  display: inline-flex;
+  flex-direction: column;
+  background-color: var(--bg-light);
+  padding: 15px 25px;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  border-left: 4px solid var(--accent-gold);
+}
+
+.about-badge .badge-stars {
+  color: var(--accent-gold);
+  font-size: 1.3rem;
+  margin-bottom: 0.25rem;
+}
+
+.about-badge .badge-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--text-dark);
+}
+
 .about-intro-image img {
   width: 100%;
   height: 450px;
@@ -77,6 +100,35 @@
   line-height: 1.6;
 }
 
+/* Service Area Section */
+.about-service-area {
+  background-color: var(--bg-white);
+}
+
+.service-areas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 2rem;
+}
+
+.service-areas span {
+  background-color: var(--bg-light);
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: var(--text-dark);
+  border: 2px solid var(--border-light);
+  transition: var(--transition);
+}
+
+.service-areas span:hover {
+  border-color: var(--primary-green);
+  color: var(--primary-green);
+}
+
 /* About CTA */
 .about-cta {
   background: linear-gradient(135deg, var(--primary-green) 0%, var(--primary-green-dark) 100%);
@@ -94,6 +146,23 @@
   font-size: 1.2rem;
   color: rgba(255, 255, 255, 0.9);
   margin-bottom: 2rem;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about-cta .btn-outline {
+  border-color: var(--text-white);
+  color: var(--text-white);
+}
+
+.about-cta .btn-outline:hover {
+  background-color: var(--text-white);
+  color: var(--primary-green);
 }
 
 @media (max-width: 992px) {
@@ -118,5 +187,10 @@
 
   .about-cta h2 {
     font-size: 2rem;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
   }
 }
