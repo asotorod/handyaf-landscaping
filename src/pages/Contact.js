@@ -8,6 +8,7 @@ function Contact() {
       <PageHeader 
         title="Contact Us"
         subtitle="Get in touch for a free estimate"
+        backgroundImage="https://images.pexels.com/photos/207456/pexels-photo-207456.jpeg"
       />
 
       <section className="section contact-content">
