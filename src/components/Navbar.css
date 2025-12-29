@@ -25,12 +25,12 @@
 }
 
 .navbar-logo img {
-  height: 80px;
+  height: 100px;
   transition: var(--transition);
 }
 
 .navbar.scrolled .navbar-logo img {
-  height: 70px;
+  height: 85px;
 }
 
 .navbar-menu {
@@ -145,7 +145,7 @@
 
   .navbar-menu {
     position: fixed;
-    top: 100px;
+    top: 120px;
     left: 0;
     right: 0;
     background-color: var(--bg-white);
