@@ -63,6 +63,10 @@
   color: var(--primary-green);
 }
 
+.contact-social {
+  margin-bottom: 2rem;
+}
+
 .contact-social h4 {
   font-size: 1rem;
   color: var(--text-dark);
@@ -90,6 +94,40 @@
   background-color: var(--primary-green);
   color: var(--text-white);
   transform: translateY(-3px);
+}
+
+/* Rating Badge */
+.contact-rating {
+  margin-top: 1.5rem;
+}
+
+.rating-badge {
+  background: linear-gradient(135deg, var(--primary-green) 0%, var(--primary-green-dark) 100%);
+  padding: 20px 25px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.rating-stars {
+  display: block;
+  font-size: 1.5rem;
+  color: var(--accent-gold);
+  margin-bottom: 0.5rem;
+}
+
+.rating-text {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--text-white);
+  margin-bottom: 0.25rem;
+}
+
+.rating-count {
+  display: block;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 /* Contact Form / Yardbook Embed */
