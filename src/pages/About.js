@@ -8,33 +8,39 @@ function About() {
     <div className="about-page">
       <PageHeader 
         title="About Us"
-        subtitle="Learn more about HandyAF Landscaping"
+        subtitle="Learn more about Handy AF Home Services"
       />
 
       <section className="section about-intro">
         <div className="container">
           <div className="about-intro-grid">
             <div className="about-intro-content">
-              <h2>Your Trusted Landscaping Partner</h2>
+              <h2>Our Story</h2>
               <p>
-                At HandyAF Landscaping, we believe that landscaping is more than just 
+                Bringing your vision of a perfect landscape, ornamental and edible garden 
+                to life with precision and care that adjusts with the changing seasons. 
+                We strive to care for every property as if it is our own and treat every 
+                client like family.
+              </p>
+              <p>
+                At Handy AF Home Services, we believe that landscaping is more than just 
                 cutting grass and trimming trees. It's about creating beautiful and 
-                functional outdoor spaces that enhance your quality of life.
+                functional outdoor spaces that enhance your quality of life and reflect 
+                your personal style.
               </p>
               <p>
-                That's why we work closely with our clients to understand their needs 
-                and vision, and then bring it to life through our expert craftsmanship. 
-                Our team has the knowledge and expertise to handle any project, from 
-                design to installation to maintenance.
+                Based in Blooming Grove, NY, we proudly serve Orange County and the 
+                surrounding areas including Cornwall, Campbell Hall, and beyond. Our team 
+                has the knowledge and expertise to handle any project, from design to 
+                installation to maintenance.
               </p>
-              <p>
-                We take pride in delivering exceptional results that exceed expectations. 
-                Whether you need a complete landscape transformation or regular maintenance, 
-                we've got you covered.
-              </p>
+              <div className="about-badge">
+                <span className="badge-stars">★★★★★</span>
+                <span className="badge-text">100% Recommended · 13 Reviews</span>
+              </div>
             </div>
             <div className="about-intro-image">
-              <img src="/images/about-team.jpg" alt="HandyAF Landscaping Team" />
+              <img src="/images/about-team.jpg" alt="Handy AF Home Services" />
             </div>
           </div>
         </div>
@@ -47,11 +53,20 @@ function About() {
             <div className="value-item">
               <div className="value-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+              </div>
+              <h3>Family Values</h3>
+              <p>We treat every client like family and care for every property as if it were our own.</p>
+            </div>
+            <div className="value-item">
+              <div className="value-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
                 </svg>
               </div>
               <h3>Quality</h3>
-              <p>We never compromise on quality. Every project receives our full attention and expertise to deliver exceptional results.</p>
+              <p>We never compromise on quality. Every project receives our full attention and expertise.</p>
             </div>
             <div className="value-item">
               <div className="value-icon">
@@ -65,25 +80,29 @@ function About() {
             <div className="value-item">
               <div className="value-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                  <circle cx="9" cy="7" r="4"></circle>
-                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                </svg>
-              </div>
-              <h3>Customer Focus</h3>
-              <p>Your satisfaction is our priority. We work closely with you to understand and exceed your expectations.</p>
-            </div>
-            <div className="value-item">
-              <div className="value-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <circle cx="12" cy="12" r="10"></circle>
                   <polyline points="12 6 12 12 16 14"></polyline>
                 </svg>
               </div>
-              <h3>Reliability</h3>
-              <p>We show up on time and deliver consistent results. You can count on us for dependable service.</p>
+              <h3>Always Available</h3>
+              <p>We're always open — call or text anytime for reliable, responsive service.</p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="section about-service-area">
+        <div className="container">
+          <h2 className="section-title">Service Area</h2>
+          <p className="section-subtitle">
+            Proudly serving Orange County, NY and surrounding areas
+          </p>
+          <div className="service-areas">
+            <span>Blooming Grove</span>
+            <span>Cornwall</span>
+            <span>Campbell Hall</span>
+            <span>Orange County</span>
+            <span>& Surrounding Areas</span>
           </div>
         </div>
       </section>
@@ -91,8 +110,11 @@ function About() {
       <section className="about-cta">
         <div className="container">
           <h2>Ready to Get Started?</h2>
-          <p>Let's discuss your landscaping project today.</p>
-          <Link to="/contact" className="btn btn-secondary">Contact Us</Link>
+          <p>Let's discuss your landscaping project today — call or text anytime!</p>
+          <div className="cta-buttons">
+            <Link to="/contact" className="btn btn-secondary">Request A Quote</Link>
+            <a href="tel:+18454941727" className="btn btn-outline">Call (845) 494-1727</a>
+          </div>
         </div>
       </section>
     </div>
