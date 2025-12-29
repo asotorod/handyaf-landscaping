@@ -78,7 +78,7 @@ function Footer() {
 
       <div className="footer-bottom">
         <div className="container">
-          <p>&copy; {new Date().getFullYear()} Handy AF LLC. All Rights Reserved. | Powered by SVT Consulting</p>
+          <p>&copy; {new Date().getFullYear()} Handy AF LLC. All Rights Reserved. | Powered by <a href="https://www.svtconsulting.co" target="_blank" rel="noopener noreferrer">SVT Consulting</a></p>
         </div>
       </div>
     </footer>
