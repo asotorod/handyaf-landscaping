@@ -37,7 +37,7 @@ function Home() {
               <Link to="/about" className="btn btn-primary">Learn More About Us</Link>
             </div>
             <div className="home-about-image">
-              <img src="/images/about-preview.jpg" alt="Handy AF Home Services at work" />
+              <img src="https://images.unsplash.com/photo-1632161293871-cf2083474e34?q=80&w=2346&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Handy AF Home Services at work" />
             </div>
           </div>
         </div>
