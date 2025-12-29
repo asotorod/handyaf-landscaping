@@ -30,7 +30,7 @@ function Contact() {
                   </div>
                   <div>
                     <h4>Phone</h4>
-                    <a href="tel:+1234567890">(123) 456-7890</a>
+                    <a href="tel:+18454941727">(845) 494-1727</a>
                   </div>
                 </div>
 
@@ -43,7 +43,7 @@ function Contact() {
                   </div>
                   <div>
                     <h4>Email</h4>
-                    <a href="mailto:info@handyaflandscaping.com">info@handyaflandscaping.com</a>
+                    <a href="mailto:imhandyaf@gmail.com">imhandyaf@gmail.com</a>
                   </div>
                 </div>
 
@@ -56,7 +56,8 @@ function Contact() {
                   </div>
                   <div>
                     <h4>Service Area</h4>
-                    <span>New Jersey & Surrounding Areas</span>
+                    <span>Blooming Grove, NY</span>
+                    <span>Cornwall, Campbell Hall & Orange County</span>
                   </div>
                 </div>
 
@@ -69,8 +70,8 @@ function Contact() {
                   </div>
                   <div>
                     <h4>Hours</h4>
-                    <span>Mon - Fri: 8am - 6pm</span>
-                    <span>Sat: 8am - 2pm</span>
+                    <span>Always Open</span>
+                    <span>Call or Text Anytime</span>
                   </div>
                 </div>
               </div>
@@ -90,6 +91,14 @@ function Contact() {
                   </a>
                 </div>
               </div>
+
+              <div className="contact-rating">
+                <div className="rating-badge">
+                  <span className="rating-stars">★★★★★</span>
+                  <span className="rating-text">100% Recommended</span>
+                  <span className="rating-count">13 Reviews on Facebook</span>
+                </div>
+              </div>
             </div>
 
             <div className="contact-form-wrapper">
@@ -98,7 +107,7 @@ function Contact() {
               <div className="yardbook-embed">
                 <iframe 
                   src="https://www.yardbook.com/hp/131845"
-                  title="Request a Quote - HandyAF Landscaping"
+                  title="Request a Quote - Handy AF Home Services"
                   width="100%"
                   height="800"
                   frameBorder="0"
