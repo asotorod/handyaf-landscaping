@@ -8,6 +8,7 @@ function Gallery() {
       <PageHeader 
         title="Our Work"
         subtitle="Browse our portfolio of completed projects"
+        backgroundImage="https://images.pexels.com/photos/68470/pexels-photo-68470.jpeg"
       />
 
       <section className="section gallery-content">
