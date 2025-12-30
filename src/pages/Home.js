@@ -50,25 +50,14 @@ function Home() {
           <p className="section-subtitle">
             Watch how we transform outdoor spaces into stunning landscapes
           </p>
-          <div className="video-wrapper">
-            {/* Replace VIDEO_ID with actual YouTube/Vimeo video ID */}
-            <div className="video-placeholder">
-              <div className="video-placeholder-content">
-                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M8 5v14l11-7z"/>
-                </svg>
-                <p>Promo Video Coming Soon</p>
-              </div>
-            </div>
-            {/* Uncomment and add your video embed when ready:
+          <div className="video-wrapper video-shorts">
             <iframe 
-              src="https://www.youtube.com/embed/VIDEO_ID" 
+              src="https://www.youtube.com/embed/B9mzAbG4DOM" 
               title="Handy AF Home Services Promo"
               frameBorder="0" 
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
               allowFullScreen
             ></iframe>
-            */}
           </div>
         </div>
       </section>
