@@ -71,6 +71,16 @@
   aspect-ratio: 16/9;
 }
 
+/* YouTube Shorts (vertical video) */
+.video-wrapper.video-shorts {
+  max-width: 350px;
+}
+
+.video-wrapper.video-shorts iframe {
+  aspect-ratio: 9/16;
+  height: 620px;
+}
+
 .video-placeholder {
   width: 100%;
   aspect-ratio: 16/9;
@@ -284,5 +294,13 @@
 
   .home-cta h2 {
     font-size: 2rem;
+  }
+
+  .video-wrapper.video-shorts {
+    max-width: 100%;
+  }
+
+  .video-wrapper.video-shorts iframe {
+    height: 500px;
   }
 }
