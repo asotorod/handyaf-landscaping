@@ -43,25 +43,6 @@ function Home() {
         </div>
       </section>
 
-      {/* Video Section */}
-      <section className="section home-video">
-        <div className="container">
-          <h2 className="section-title">See Our Work In Action</h2>
-          <p className="section-subtitle">
-            Watch how we transform outdoor spaces into stunning landscapes
-          </p>
-          <div className="video-wrapper video-shorts">
-            <iframe 
-              src="https://www.youtube.com/embed/B9mzAbG4DOM" 
-              title="Handy AF Home Services Promo"
-              frameBorder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowFullScreen
-            ></iframe>
-          </div>
-        </div>
-      </section>
-
       {/* Services Section */}
       <section className="section home-services">
         <div className="container">
